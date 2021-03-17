@@ -1,7 +1,8 @@
 import { app } from "./App.module.scss";
 
 function App() {
-  return <div className={app}>Hello World</div>;
+  const message = "Hello Worldx";
+  return <div className={app}>{message}</div>;
 }
 
 export default App;
